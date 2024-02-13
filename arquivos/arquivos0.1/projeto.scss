@@ -1,0 +1,56 @@
+body{
+    background-color:  #B7F1FB;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+$cor1:  #005187;
+$cor2: #f3f8ff;;
+h1{
+    color: $cor1;
+    font-size: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h6{
+    color: $cor1;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 200px;
+}
+#boceta{
+    color: $cor1;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    border-color: $cor1;
+    font-size: 15px;
+    font-family: arial;
+    cursor: pointer;
+}
+#puto{
+    font-size: 30px;
+    color: $cor1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#inicio{
+ //existe o radio gradiente também. O radio é radial, em circulos. Também pode colocar linear gradiente usando angulos, com 45deg por exemplo.
+    background-image: linear-gradient(to top, #B7F1FB , #EBCDC1,);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101.2%;
+    height: 630px;
+    margin-top: -15px;
+}
+img{
+    -webkit-mask-image: linear-gradient(to top, transparent 25%, black 100%);
+	background-image: url('sexo.png');
+}

@@ -1,0 +1,43 @@
+section {
+  background-color: #5589c4;
+  width: 330px;
+  height: 444px;
+  border-radius: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+#tela {
+  background-color: #74a7e4;
+  width: 280px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 5%;
+  color: #dceafc;
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#botoes {
+  margin-top: 15px;
+}
+
+.botao {
+  background-color: #74a7e4;
+  color: #dceafc;
+  border: none;
+  border-radius: 5%;
+  width: 60px;
+  height: 60px;
+  font-size: 145%;
+  text-align: center;
+  transition: background-color 0.3s, 0.3s;
+  cursor: pointer;
+}
+.botao:hover {
+  filter: brightness(110%);
+}/*# sourceMappingURL=calculadora.css.map */

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconX.png" type="image/x-icon">
+    <title>Ximagens</title>
+   <link rel="stylesheet" href="projeto.css">
+   <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+  <div id="inicio">
+    <H1 >"Fode minha bocetinha &#x1F338; &hearts;" </H1> 
+    <h6>-Principais hábitos de um casal feliz</h6>
+    <img src="sexo.png" alt="">
+    <!--o & é usado antes de usar algum script de marca. E para colocar emoji, procure o código dele no google e coloque aqui usando &#x   ;.-->
+  </div>
+<!-- o h1 é no topo da hierarquia, e o h6 é o ultimo-->
+    <p id="puto">NÃO CLICA NESSE PUTO </p>
+    <img id='evaporando' src="emoji_evaporando.gif" >
+    <button id='boceta'type="button" onclick="botao()"> <strong> clique em mim </strong></button>
+      <hr>      <!--isso é quebra de linha horizontal--><!--o br é quebra de linha no texto-->
+    <section id="calcu">
+      <div id="tela"></div>
+        <div id="botoes">
+          <table> <!--isto cira um pequeno espaço, formando uma tabela, com colunas e linhas-->
+          <tr> <!-- o tr define uma linha numa tabela e o td define uma coluna-->
+            <tr>
+          <td><button class='botao' type="button" onclick= "clean()" >AC</button></td>
+          <td><button class='botao' type="button" onclick="porcentagem()" >%</button></td>
+          <td><button class='botao' type="button" onclick="resultado('**')" >^</button></td>
+          <td><button class='botao' type="button" onclick="clean2()" >del</button></td>
+        </tr>   <!--tem que colocar o número no parenteses do resultado porque a função espera um numero
+                e não pode ser números aleátorios. por isso.-->
+          <tr>
+          <td><button class='botao' type="button" onclick="resultado(9)" >9</button></td>    
+          <td><button class='botao' type="button" onclick="resultado(8)" >8</button></td>
+          <td><button class='botao' type="button" onclick="resultado(7)" >7</button></td>
+          <td><button class='botao' type="button" onclick="resultado('/')" >÷</button></td>
+        </tr>
+          <tr>
+          <td><button class='botao' type="button" onclick="resultado(6)" >6</button></td>
+          <td><button class='botao' type="button" onclick="resultado(5)" >5</button></td>
+          <td><button class='botao' type="button" onclick="resultado(4)" >4</button></td>
+          <td><button class='botao' type="button" onclick="resultado('*')">x</button></td>
+        </tr>
+          <tr>
+          <td><button class='botao' type="button" onclick="resultado(3)" >3</button></td>
+          <td><button class='botao' type="button" onclick="resultado(2)" >2</button></td>
+          <td><button class='botao' type="button" onclick="resultado(1)" >1</button></td>
+          <td><button class='botao' type="button" onclick="resultado('-')" >-</button></td>
+        </tr>
+          <tr>
+          <td><button class='botao' type="button" onclick="resultado(0)" >0</button></td>
+          <td><button class='botao' type="button" onclick="resultado('.')" >.</button></td>
+          <td><button class='botao' type="button" onclick="resposta('==')" >=</button></td>
+          <td><button class='botao' type="button" onclick="resultado('+')" >+</button></td>
+        </tr>
+        </tr>
+      </table>
+      </div>
+    </section> <!--agrupa tudo de bom que tem no html :D-->
+      <!--se organizou no próprio HTML-->
+      <div id="banguela" style="margin-top: 100px">
+      <video width="640" height="360" controls>
+        <source src="banguela.mp4" type="video/mp4">
+        <ins>o teu navegador não suporta nada :(</ins>
+    </video>
+  </div>
+    <script src="projeto.js"></script>
+    <script src="calculadora.js"></script>
+</body>
+</html>
+<!--
+  Todo HTML que tem por aqui:
+      1-O favicon. Favicon é o ícone de favoritos que aparece no topo do site. ele está no head, em formato de link.
+      2-O "&" é usado para algum icone de marca. ele é usado antes do código de marca.
+      3-Para adicionar emojis, procura-se o seu código no google e adiciona também com um "&" e "#" na frente.
+      4-O símbolo é o mesmo passo do ícone de marca.
+      5-O br é quebra de linha de texto.
+      6-O hr é quebra de linha horizontal.
+      7-O strong é negrito em forma semântica, mas também pode ser somente "b".
+      8-Para ser em itálico, usa-se o EM em forma semântica, mas também pode ser somente "i".
+      9-A tag table cria uma tabela, mas ainda tem que adicionar coisas.
+      10-Tr define uma linha na tabela, e o Td define uma coluna uuma tabela.
+      11-O source serve para suportar o vídeo, que serve pra da play, avançar, acelerar, desacelerar e outras configurações.
+      12-O "ins" é inserir texto. também existe o "del" que é deletar texto: <del>rola dura demais</del>
+      13-O sup é para colocar letras pequenas em cima, e o sub é para colocar letra pequenas em baixo. imagine x2 e h2o;
+-->

@@ -1,0 +1,44 @@
+$cor1: #5589c4;
+$cor2: #74a7e4;
+$cor3: #dceafc;;
+section{
+    background-color: $cor1;
+    width: 330px;
+    height: 444px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#tela{
+    background-color: $cor2;
+    width: 280px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 5%;
+    color: $cor3;
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#botoes{
+    margin-top: 15px;
+}
+.botao{
+    background-color: $cor2;
+    color: $cor3;
+    border: none;
+    border-radius: 5%;
+    width: 60px;
+    height: 60px;
+    font-size: 145%;
+    text-align: center;
+    transition: background-color 0.3s, 0.3s;
+    cursor: pointer;
+    &:hover{
+        filter: brightness(110%)
+    }
+}
