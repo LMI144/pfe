@@ -34,19 +34,6 @@ function resposta() {
     }
 }
 
-
-
-/*
-function porcentagem(num) {
-    var tela = document.getElementById('tela').innerHTML
-    var num1 = tela
-    var num2 = tela
-    document.getElementById('tela').innerHTML += '%' 
-    var calculo1 = num1 / 100
-    var calculo2 = calculo1 * num2
-    var calculo3 = calculo2
-
-} //fazer porcentagem, talvez colocando somente o porce = true dentro da function porcentagem e colocando todo o resto para fora e em cima da function resposta pra ver se talvez dá certo
 /*
 num1 = 99
 num2 = 50
